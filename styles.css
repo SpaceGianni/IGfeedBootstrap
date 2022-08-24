@@ -1,0 +1,19 @@
+.btn-secondary{
+    color:black 
+}
+
+
+
+.row .col-4 img{
+    width: 100%;
+    height:250px;
+    object-fit: cover;
+    padding: 2px;
+}
+
+.cambio-vista{
+    align-items: center;
+}
+
+
+
