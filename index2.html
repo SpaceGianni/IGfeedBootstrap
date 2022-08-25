@@ -14,38 +14,82 @@
     <title>Instagram Feed con Bootstrap</title>
 </head>
 
+<body>
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
+        <div class="container">
+            <i class="fa-brands fa-instagram fa-2x bg-light pe-2"></i>
+            <a class="navbar-brand Insta" href="#"><i style="color:lightslategray;">Instagram</i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Create a
+                            new post</button>
+                    </li>
 
-<div class="container-fluid bg-light">
-    <div class="row">
-        <div class="col-12">
-            <div class="card w-50 mx-auto my-3">
-                <div class="card-body">
-                    <div class="titulo-card d-flex">
-                        <h5 class="card-title"> Mi primera foto</h5>
-                        <p class="ms-auto card-subtitle mb-2 text-muted">1/9</p>
-                    </div>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-gear"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-                    <img src="https://picsum.photos/200/150" class="card-img-top" alt="...">
-                    <h6 class="fw-bold py-4"> 23 Likes</h6>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laborum
-                        nostrum
-                        nisi vitae, blanditiis, unde eum officiis nam veniam quaerat quidem minima rerum voluptatem,
-                        aliquam
-                        ipsa magnam similique alias dignissimos?</p>
-                    <div class="final-postcard d-flex justify-content-between">
-                        <div class="comentarios">
-                            <i class="fa-regular fa-heart corazon"></i>
-                            <span class="card-subtitle mb-2 text-muted">Comments...</span>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link" href="./index.html"><i class="fa-light fa-table-cells"></i></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./index2.html"><i class="fa-solid fa-stop"></i></a>
+        </li>
+    </ul>
+
+    <div class="container-fluid bg-light">
+        <div class="row">
+            <div class="col-12">
+                <div class="card w-50 mx-auto my-3">
+                    <div class="card-body">
+                        <div class="titulo-card d-flex">
+                            <h5 class="card-title"> Mi primera foto</h5>
+                            <p class="ms-auto card-subtitle mb-2 text-muted">1/9</p>
                         </div>
-                        <div class="elipsi">
-                            <i class="fa-solid fa-ellipsis-vertical"></i>
+
+                        <img src="https://picsum.photos/200/150" class="card-img-top" alt="...">
+                        <h6 class="fw-bold py-4"> 23 Likes</h6>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laborum
+                            nostrum
+                            nisi vitae, blanditiis, unde eum officiis nam veniam quaerat quidem minima rerum voluptatem,
+                            aliquam
+                            ipsa magnam similique alias dignissimos?</p>
+                        <div class="final-postcard d-flex justify-content-between">
+                            <div class="comentarios">
+                                <i class="fa-regular fa-heart corazon"></i>
+                                <span class="card-subtitle mb-2 text-muted">Comments...</span>
+                            </div>
+                            <div class="elipsi">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
 
 
@@ -58,7 +102,7 @@
                             <h5 class="card-title">Mi segunda foto</h5>
                             <p class="ms-auto card-subtitle mb-2 text-muted">2/9</p>
                         </div>
-    
+
                         <img src="https://picsum.photos/200/150" class="card-img-top" alt="...">
                         <h6 class="fw-bold py-4"> 25 Likes</h6>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laborum
@@ -90,7 +134,7 @@
                             <h5 class="card-title">Vamos por la tercera</h5>
                             <p class="ms-auto card-subtitle mb-2 text-muted">3/9</p>
                         </div>
-    
+
                         <img src="https://picsum.photos/200/150" class="card-img-top" alt="...">
                         <h6 class="fw-bold py-4"> 30 Likes</h6>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laborum
@@ -122,7 +166,7 @@
                             <h5 class="card-title">Cuarta fotito...</h5>
                             <p class="ms-auto card-subtitle mb-2 text-muted">4/9</p>
                         </div>
-    
+
                         <img src="https://picsum.photos/200/150" class="card-img-top" alt="...">
                         <h6 class="fw-bold py-4"> 40 Likes</h6>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laborum
@@ -154,7 +198,7 @@
                             <h5 class="card-title">Y la quinta</h5>
                             <p class="ms-auto card-subtitle mb-2 text-muted">5/9</p>
                         </div>
-    
+
                         <img src="https://picsum.photos/200/150" class="card-img-top" alt="...">
                         <h6 class="fw-bold py-4"> 45 Likes</h6>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laborum
@@ -186,7 +230,7 @@
                             <h5 class="card-title">Sexta foto</h5>
                             <p class="ms-auto card-subtitle mb-2 text-muted">6/9</p>
                         </div>
-    
+
                         <img src="https://picsum.photos/200/150" class="card-img-top" alt="...">
                         <h6 class="fw-bold py-4"> 55 Likes</h6>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laborum
@@ -218,7 +262,7 @@
                             <h5 class="card-title"> Séptima foto con</h5><i class="fa-regular fa-heart corazon"></i>
                             <p class="ms-auto card-subtitle mb-2 text-muted">7/9</p>
                         </div>
-    
+
                         <img src="https://picsum.photos/200/150" class="card-img-top" alt="...">
                         <h6 class="fw-bold py-4"> 70 Likes</h6>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laborum
@@ -251,7 +295,7 @@
                             <h5 class="card-title">Octava foto </h5>
                             <p class="ms-auto card subtitle mb-2 text-muted">8/9</p>
                         </div>
-    
+
                         <img src="https://picsum.photos/200/150" class="card-img-top" alt="...">
                         <h6 class="fw-bold py-4"> 87 Likes</h6>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laborum
@@ -273,7 +317,7 @@
             </div>
         </div>
     </div>
- 
+
     <div class="container-fluid bg-light">
         <div class="row">
             <div class="col-12">
@@ -283,7 +327,7 @@
                             <h5 class="card-title"> Última foto</h5>
                             <p class="ms-auto card-subtitle mb-2 text-muted">9/9</p>
                         </div>
-    
+
                         <img src="https://picsum.photos/200/150" class="card-img-top" alt="...">
                         <h6 class="fw-bold py-4"> 103 Likes</h6>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laborum
@@ -308,4 +352,7 @@
 
 
 
-</div>
+    </div>
+</body>
+
+</html>
